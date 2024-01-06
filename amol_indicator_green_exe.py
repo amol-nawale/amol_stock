@@ -1062,7 +1062,8 @@ if st.button('Run Code'):
     
         
         # Append a row to the DataFrame
-        recommendation = recommendation.append({'Ticker': ticker, 'SL_Value': sl_value,'Close':df['Close'].tail(1)[0]}, ignore_index=True)
+        # recommendation = recommendation.append({'Ticker': ticker, 'SL_Value': sl_value,'Close':df['Close'].tail(1)[0]}, ignore_index=True)
+        recommendation = recommendation.append({'Ticker': ticker, 'SL_Value': sl_value, 'Close': df['Close'].tail(1).values[0]}, ignore_index=True)
     
     
     
