@@ -913,8 +913,8 @@ if st.button('Run Code'):
     #     "AGI.NS", "TI.NS"
     # ]
     
-    
-    ticker_list=['BDL.NS','PCBL.NS','MASFIN.NS']
+    ticker_list=['BDL.NS']
+   
     
     # len(ticker_list)
     
