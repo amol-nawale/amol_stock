@@ -13,7 +13,7 @@ from keras.layers import Dropout, Dense
 from tensorflow.keras.layers import LSTM
 import datetime
 import subprocess
-subprocess.run(['pip', 'install', 'pandas_ta==0.3.14'])
+subprocess.run(['pip', 'install', 'pandas_ta'])
 
 st.title('Amol Stock Recommedations')
 
