@@ -1,7 +1,1 @@
-pandas
-pandas_ta
-numpy
-yfinance
-tensorflow
-scikit-learn
-streamlit
+
