@@ -12,7 +12,8 @@ from keras import Sequential
 from keras.layers import Dropout, Dense
 from tensorflow.keras.layers import LSTM
 import datetime
-from sqlalchemy import create_engine
+import subprocess
+subprocess.run(['pip', 'install', 'pandas_ta==0.3.14'])
 
 st.title('Amol Stock Recommedations')
 
