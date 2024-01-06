@@ -914,7 +914,7 @@ if st.button('Run Code'):
     # ]
     
     
-    ticker_list=['UNOMINDIA.NS','BDL.NS','PCBL.NS','MASFIN.NS']
+    ticker_list=['BDL.NS','PCBL.NS','MASFIN.NS']
     
     # len(ticker_list)
     
